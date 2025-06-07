@@ -1,0 +1,67 @@
+# DokuWiki AI Assistant Plugin .gitignore
+
+# 개발 파일들
+test-script.js
+script-backup.js
+build.bat
+build.sh
+convert-icon.html
+create-icon.py
+
+# 로그 파일
+*.log
+debug.log
+
+# 임시 파일
+*.tmp
+*.temp
+.DS_Store
+Thumbs.db
+
+# IDE 파일들
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# 백업 파일들
+*.bak
+*.backup
+*~
+
+# 컴파일된 파일들
+*.min.js
+*.min.css
+
+# 설치 시 생성되는 파일들
+data/
+cache/
+
+# API 키 파일 (혹시 모를 보안을 위해)
+api-key.txt
+.env
+.env.local
+
+# 테스트 파일들
+tests/
+test_*
+
+# 문서 빌드 파일들
+docs/_build/
+*.pdf
+
+# 패키지 관리자 파일들
+node_modules/
+vendor/
+composer.lock
+package-lock.json
+
+# OS 생성 파일들
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db

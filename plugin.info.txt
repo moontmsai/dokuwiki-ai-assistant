@@ -1,0 +1,7 @@
+base   aiassist
+author moontwt
+email  moontwt@example.com
+date   2025-01-19
+name   AI Assistant Plugin
+desc   AI-powered text editing assistant for DokuWiki that uses OpenAI API to reorganize and improve selected text
+url    https://github.com/moontwt/dokuwiki-aiassist-plugin
