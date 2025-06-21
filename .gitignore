@@ -1,0 +1,101 @@
+# DokuWiki AI Assistant Plugin .gitignore
+
+# 개발 파일들
+test-script.js
+script-backup.js
+build.bat
+build.sh
+convert-icon.html
+create-icon.py
+
+# 빌드 결과물
+build/
+dist/
+*.zip
+aiassist-plugin.zip
+
+# 로그 파일
+*.log
+debug.log
+error.log
+
+# 임시 파일
+*.tmp
+*.temp
+*.cache
+
+# IDE/에디터 파일들
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.settings/
+.buildpath
+.sublime-*
+*.code-workspace
+
+# 백업 파일들
+*.bak
+*.backup
+*~
+*.orig
+
+# 컴파일된 파일들
+*.min.js
+*.min.css
+
+# 설치 시 생성되는 파일들
+data/
+cache/
+lib/plugins/aiassist/data/
+lib/plugins/aiassist/cache/
+
+# API 키 및 설정 파일 (보안)
+api-key.txt
+.env
+.env.local
+.env.production
+config.local.php
+local.php
+
+# 테스트 파일들
+tests/
+test_*
+phpunit.xml
+.phpunit.result.cache
+
+# 문서 빌드 파일들
+docs/_build/
+*.pdf
+
+# 패키지 관리자 파일들
+node_modules/
+vendor/
+composer.lock
+package-lock.json
+yarn.lock
+
+# OS 생성 파일들
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# Git 관련
+*.patch
+*.diff
+
+# 기타 임시/캐시 파일
+.sass-cache/
+.webpack/
+coverage/
+.nyc_output/
+
+# 개발 가이드 (로컬에서만 사용)
+CLAUDE.md
