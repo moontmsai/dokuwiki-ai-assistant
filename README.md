@@ -259,3 +259,5 @@ MIT License
 
 이 프로젝트가 도움이 되셨다면, 커피 한 잔으로 응원해주세요: [https://coff.ee/moontmsai](https://coff.ee/moontmsai)  
 여러분의 후원이 지속적인 오픈소스 개발에 큰 힘이 됩니다.
+
+[![Buy Me A Coffee](https://img.shields.io/badge/Buy%20Me%20a%20Coffee-%E2%98%95-blue?style=flat&logo=buy-me-a-coffee&logoColor=white)](https://coff.ee/moontmsai)
